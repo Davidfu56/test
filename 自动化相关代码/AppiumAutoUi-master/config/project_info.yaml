@@ -1,0 +1,5 @@
+projcetname:
+  #用例路径
+  project_type: WX_H5
+  case_file: "../case/excels/test_login.xlsx"
+  page_resource:

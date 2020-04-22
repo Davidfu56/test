@@ -1,0 +1,23 @@
+name: /Webgateway/getBusinessData
+variables:
+    requestKey: ''
+request:
+    headers:
+        User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12
+            (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1910120
+            MicroMessenger/7.0.4 Language/zh_CN webview/15740389690013191 webdebugger
+            port/27180
+    method: GET
+    params:
+        requestKey: $requestKey
+    url: /Webgateway/getBusinessData
+validate:
+-   eq:
+    - status_code
+    - 200
+-   eq:
+    - content.Msg
+    - 获取数据成功
+-   eq:
+    - content.MsgCode
+    - '000000'

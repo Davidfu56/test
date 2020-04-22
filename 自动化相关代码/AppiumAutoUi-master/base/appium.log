@@ -1,0 +1,16 @@
+2019-08-07 09:06:48:230 [Appium] Welcome to Appium v1.13.0
+2019-08-07 09:06:48:232 [Appium] Non-default server args:
+2019-08-07 09:06:48:233 [Appium]   port: 4700
+2019-08-07 09:06:48:233 [Appium]   bootstrapPort: 4900
+2019-08-07 09:06:48:233 [Appium]   sessionOverride: true
+2019-08-07 09:06:48:234 [Appium]   logFile: appium.log
+2019-08-07 09:06:48:234 [Appium]   udid: 8TE645R8459HBEUW
+2019-08-07 09:06:48:234 [Appium]   noReset: true
+2019-08-07 09:06:48:235 [Appium] Deprecated server args:
+2019-08-07 09:06:48:235 [Appium]   -U,--udid => --default-capabilities '{"udid":"8TE645R8459HBEUW"}'
+2019-08-07 09:06:48:235 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-08-07 09:06:48:236 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-08-07 09:06:48:236 [Appium]   udid: 8TE645R8459HBEUW
+2019-08-07 09:06:48:236 [Appium]   noReset: true
+2019-08-07 09:06:48:294 [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2019-08-07 09:06:51:801 [Appium] Received SIGINT - shutting down

@@ -1,0 +1,167 @@
+2019-08-07 17:55:57,502 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:55:58,114 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:55:58,678 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:55:59,245 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:55:59,848 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:02,638 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|成功
+2019-08-07 17:56:02,638 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|开始
+2019-08-07 17:56:02,638 - operate_element.py - INFO: 开始点击元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:02,638 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='我']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:03,134 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:03,134 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:03,134 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='收藏']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:04,935 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='收藏']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|成功
+2019-08-07 17:56:04,936 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': "//*[@text='收藏']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|开始
+2019-08-07 17:56:04,936 - operate_element.py - INFO: 开始点击元素|{'step_info': '', 'element_info': "//*[@text='收藏']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:04,936 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@text='收藏']", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:05,268 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:05,269 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:05,269 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[contains(@text, '深农商电脑网站支付')]", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:06,578 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[contains(@text, '深农商电脑网站支付')]", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|成功
+2019-08-07 17:56:06,578 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': "//*[contains(@text, '深农商电脑网站支付')]", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|开始
+2019-08-07 17:56:06,579 - operate_element.py - INFO: 开始点击元素|{'step_info': '', 'element_info': "//*[contains(@text, '深农商电脑网站支付')]", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:06,579 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[contains(@text, '深农商电脑网站支付')]", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:06,860 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:06,862 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:06,862 - operate_element.py - INFO: 开始切换webview|{'step_info': '', 'element_info': 'WEBVIEW_com.tencent.mm:tools', 'find_type': '', 'index': '', 'operate_type': 'switch_webview', 'text': ''}
+2019-08-07 17:56:08,866 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:08,867 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:08,867 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAY_TYPE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:08,994 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAY_TYPE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}|成功
+2019-08-07 17:56:08,994 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'PAY_TYPE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}|开始
+2019-08-07 17:56:08,994 - operate_element.py - INFO: 开始选择元素|{'step_info': '', 'element_info': 'PAY_TYPE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:08,994 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAY_TYPE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:09,305 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:09,306 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:09,306 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MD_TYPE', 'find_type': 'id', 'index': '1', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:09,379 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MD_TYPE', 'find_type': 'id', 'index': '1', 'operate_type': 'select', 'text': ''}|成功
+2019-08-07 17:56:09,379 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'MD_TYPE', 'find_type': 'id', 'index': '1', 'operate_type': 'select', 'text': ''}|开始
+2019-08-07 17:56:09,380 - operate_element.py - INFO: 开始选择元素|{'step_info': '', 'element_info': 'MD_TYPE', 'find_type': 'id', 'index': '1', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:09,380 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MD_TYPE', 'find_type': 'id', 'index': '1', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:10,259 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:10,259 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:10,259 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'THIRD_OPEN_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'yl'}
+2019-08-07 17:56:10,340 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'THIRD_OPEN_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'yl'}|成功
+2019-08-07 17:56:10,340 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'THIRD_OPEN_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'yl'}|开始
+2019-08-07 17:56:10,340 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'THIRD_OPEN_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'yl'}
+2019-08-07 17:56:10,340 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'THIRD_OPEN_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'yl'}
+2019-08-07 17:56:10,500 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'THIRD_OPEN_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'yl'}
+2019-08-07 17:56:10,896 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:10,896 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:10,896 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PHONE_NO', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '13540782043'}
+2019-08-07 17:56:10,946 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PHONE_NO', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '13540782043'}|成功
+2019-08-07 17:56:10,946 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'PHONE_NO', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '13540782043'}|开始
+2019-08-07 17:56:10,946 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'PHONE_NO', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '13540782043'}
+2019-08-07 17:56:10,946 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PHONE_NO', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '13540782043'}
+2019-08-07 17:56:11,068 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PHONE_NO', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '13540782043'}
+2019-08-07 17:56:11,644 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:11,644 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:11,644 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '99091605310000'}
+2019-08-07 17:56:11,708 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '99091605310000'}|成功
+2019-08-07 17:56:11,708 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'MER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '99091605310000'}|开始
+2019-08-07 17:56:11,708 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'MER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '99091605310000'}
+2019-08-07 17:56:11,709 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '99091605310000'}
+2019-08-07 17:56:11,832 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '99091605310000'}
+2019-08-07 17:56:12,563 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:12,563 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:12,563 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '魏双双'}
+2019-08-07 17:56:12,636 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '魏双双'}|成功
+2019-08-07 17:56:12,636 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'MER_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '魏双双'}|开始
+2019-08-07 17:56:12,636 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'MER_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '魏双双'}
+2019-08-07 17:56:12,636 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '魏双双'}
+2019-08-07 17:56:12,823 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'MER_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '魏双双'}
+2019-08-07 17:56:13,119 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:13,119 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:13,119 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'ORDER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '201908010001222'}
+2019-08-07 17:56:13,180 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'ORDER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '201908010001222'}|成功
+2019-08-07 17:56:13,180 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'ORDER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '201908010001222'}|开始
+2019-08-07 17:56:13,180 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'ORDER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '201908010001222'}
+2019-08-07 17:56:13,180 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'ORDER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '201908010001222'}
+2019-08-07 17:56:13,307 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'ORDER_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '201908010001222'}
+2019-08-07 17:56:13,981 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:13,981 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:13,982 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'TRAN_AMT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '20.00'}
+2019-08-07 17:56:14,040 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'TRAN_AMT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '20.00'}|成功
+2019-08-07 17:56:14,041 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'TRAN_AMT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '20.00'}|开始
+2019-08-07 17:56:14,041 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'TRAN_AMT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '20.00'}
+2019-08-07 17:56:14,041 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'TRAN_AMT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '20.00'}
+2019-08-07 17:56:14,174 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'TRAN_AMT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '20.00'}
+2019-08-07 17:56:14,693 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:14,693 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:14,694 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_ACCT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:14,773 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_ACCT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}|成功
+2019-08-07 17:56:14,773 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'PAYEE_ACCT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}|开始
+2019-08-07 17:56:14,774 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'PAYEE_ACCT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:14,774 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_ACCT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:14,948 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_ACCT', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:15,432 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:15,433 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:15,433 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:15,492 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}|成功
+2019-08-07 17:56:15,492 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'PAYEE_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}|开始
+2019-08-07 17:56:15,492 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'PAYEE_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:15,492 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:15,649 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'PAYEE_NAME', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '11111111'}
+2019-08-07 17:56:16,101 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:16,101 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:16,101 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'ACCT_NATURE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:16,161 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'ACCT_NATURE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}|成功
+2019-08-07 17:56:16,161 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'ACCT_NATURE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}|开始
+2019-08-07 17:56:16,161 - operate_element.py - INFO: 开始选择元素|{'step_info': '', 'element_info': 'ACCT_NATURE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:16,162 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'ACCT_NATURE', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:16,474 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:16,474 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:16,475 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_TYPE', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '0'}
+2019-08-07 17:56:16,542 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_TYPE', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '0'}|成功
+2019-08-07 17:56:16,542 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'DOCUMENT_TYPE', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '0'}|开始
+2019-08-07 17:56:16,542 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'DOCUMENT_TYPE', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '0'}
+2019-08-07 17:56:16,543 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_TYPE', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '0'}
+2019-08-07 17:56:16,736 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_TYPE', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '0'}
+2019-08-07 17:56:17,002 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:17,002 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:17,002 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '411521200102027645'}
+2019-08-07 17:56:17,063 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '411521200102027645'}|成功
+2019-08-07 17:56:17,063 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'DOCUMENT_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '411521200102027645'}|开始
+2019-08-07 17:56:17,063 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'DOCUMENT_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '411521200102027645'}
+2019-08-07 17:56:17,063 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '411521200102027645'}
+2019-08-07 17:56:17,200 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'DOCUMENT_ID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': '411521200102027645'}
+2019-08-07 17:56:18,043 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:18,043 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:18,043 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'REALTIME_FLAG', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:18,116 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'REALTIME_FLAG', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}|成功
+2019-08-07 17:56:18,116 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'REALTIME_FLAG', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}|开始
+2019-08-07 17:56:18,116 - operate_element.py - INFO: 开始选择元素|{'step_info': '', 'element_info': 'REALTIME_FLAG', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:18,116 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'REALTIME_FLAG', 'find_type': 'id', 'index': '0', 'operate_type': 'select', 'text': ''}
+2019-08-07 17:56:18,474 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:18,474 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:18,474 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'BODY', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'ui'}
+2019-08-07 17:56:18,545 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'BODY', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'ui'}|成功
+2019-08-07 17:56:18,545 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'BODY', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'ui'}|开始
+2019-08-07 17:56:18,545 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'BODY', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'ui'}
+2019-08-07 17:56:18,545 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'BODY', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'ui'}
+2019-08-07 17:56:18,711 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'BODY', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'ui'}
+2019-08-07 17:56:19,005 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:19,006 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:19,006 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_OPENID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'o75j41N4djniOMZ18IeBbUDAAIKg'}
+2019-08-07 17:56:19,068 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_OPENID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'o75j41N4djniOMZ18IeBbUDAAIKg'}|成功
+2019-08-07 17:56:19,069 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'SUB_OPENID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'o75j41N4djniOMZ18IeBbUDAAIKg'}|开始
+2019-08-07 17:56:19,069 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'SUB_OPENID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'o75j41N4djniOMZ18IeBbUDAAIKg'}
+2019-08-07 17:56:19,069 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_OPENID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'o75j41N4djniOMZ18IeBbUDAAIKg'}
+2019-08-07 17:56:19,208 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_OPENID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'o75j41N4djniOMZ18IeBbUDAAIKg'}
+2019-08-07 17:56:20,800 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:20,801 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:20,801 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_APPID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'UI'}
+2019-08-07 17:56:20,914 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_APPID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'UI'}|成功
+2019-08-07 17:56:20,915 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': 'SUB_APPID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'UI'}|开始
+2019-08-07 17:56:20,915 - operate_element.py - INFO: 开始输入内容|{'step_info': '', 'element_info': 'SUB_APPID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'UI'}
+2019-08-07 17:56:20,915 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_APPID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'UI'}
+2019-08-07 17:56:21,147 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': 'SUB_APPID', 'find_type': 'id', 'index': '', 'operate_type': 'send_keys', 'text': 'UI'}
+2019-08-07 17:56:21,529 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:21,529 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}
+2019-08-07 17:56:21,529 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@id='payment_tab']/form/section[14]/div/button", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:21,609 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@id='payment_tab']/form/section[14]/div/button", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|成功
+2019-08-07 17:56:21,610 - operate_element.py - INFO: 操作元素|{'step_info': '', 'element_info': "//*[@id='payment_tab']/form/section[14]/div/button", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}|开始
+2019-08-07 17:56:21,610 - operate_element.py - INFO: 开始点击元素|{'step_info': '', 'element_info': "//*[@id='payment_tab']/form/section[14]/div/button", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:21,610 - operate_element.py - INFO: 查找元素|{'step_info': '', 'element_info': "//*[@id='payment_tab']/form/section[14]/div/button", 'find_type': 'xpath', 'index': '', 'operate_type': 'click', 'text': ''}
+2019-08-07 17:56:23,289 - app_case.py - INFO: 步骤执行结果|True
+2019-08-07 17:56:23,289 - app_case.py - INFO: 开始执行检查点|{'check_info': '', 'element_info': '', 'find_type': '', 'index': '', 'check_type': '', 'text': ''}

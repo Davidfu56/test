@@ -1,0 +1,16 @@
+config:
+    name: "demo testsuite"
+    variables:
+        device_sn: "XYZ"
+    base_url: http://midopay-fit.qhgctech.com:8090
+testcases:
+    create user and check result for 1.:
+        testcase: testcases/get_RsaKey.yml
+        variables:
+            BODY: '1-666666'
+
+    create user and check result for 2.:
+        name: demo_testcase2
+        testcase: testcases/demo_testcase2.yml
+        variables:
+            BODY: '2-777777'

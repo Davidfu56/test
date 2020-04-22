@@ -1,0 +1,26 @@
+name: /api/mdp_queryCustInfo
+request:
+    data:
+        ? '{"version":"1.1.9","appID":"f2d72258-2e11-476f-abf2-1480c2fe2b6b","SDKType":"mobile","reqTime":"2019-11-25
+            14:45:52 501","mac":"0.0.0.0","signType":"MD5","appAccessToken":"fb0c7553c45efab60560e333e0734e32","data":"j/MpI6UgZBT/Xh
+            AkV1B0l MoW1cH5CKHZHyt2R/HcuAyqO7BjAUa3Xd3LjhsFblbM5j/l/QRakVxTn2tEQtrw'
+        : =","genId":"1574665243490WS1000003801","randomKey":"T3Lzc0Z935iN6pbKwrf/YkDt0rSJsJuJ8Csya9TVzccsyLdH
+            5/Zq0MWlV8R15RZEUqwSGg4unmifgc4tzdkqhRSaiI6oBw7UA23CcPdS6YpZwufAShVa/X
+            uvREdk2RZZttW o6HxL92P4VWMJhojgr7CZD0XKzdGO21v3Sq67j9xAzUuEx7CBasetEuyzLGilDeaKxsrRFrPZ235OvIbB6kML1dmCIzVnNHrLKEbvr4HbIiW//FZuefy/SSZlpDd9Q8AvhfAgwpLtTBqsvAC3ll8
+            /oYa/g/pnoLPR/2 JeNG1Yo1pJxwoaHMj7WhENF9MKaXbG4DnjmUHzVgfAQ==","sign":"d942777c8549acf2f6b11552d2edbce9"}
+    headers:
+        Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+        User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12
+            (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1910120
+            MicroMessenger/7.0.4 Language/zh_CN webview/15746539757155466 webdebugger
+            port/11110
+        X-Requested-With: XMLHttpRequest
+    method: POST
+    url: http://jyjf.qhgctech.com/api/mdp_queryCustInfo
+validate:
+-   eq:
+    - status_code
+    - 200
+-   eq:
+    - headers.Content-Type
+    - text/html;charset=UTF-8

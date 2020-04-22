@@ -1,0 +1,64 @@
+name: /SNSBank-JAVA-SDK-DEMO/payment
+base_url: http://midopay-uat.qhgctech.com:8090
+variables:
+    PAY_TYPE: ''
+    MD_TYPE: PAY
+    THIRD_OPEN_ID: 0983824324
+    THIRD_ID: 000001
+    PHONE_NO: 18062100932
+    MER_ID: 99091605310000
+    MER_NAME: 李军
+    ORDER_ID: ${get_orderId()}
+    TRAN_AMT: '0.01'
+    PAYEE_ACCT: '6225882137335235'
+    PAYEE_NAME: 'Api'
+    ACCT_NATURE: '0'
+    DOCUMENT_TYPE: '0'
+    DOCUMENT_ID: 411521199009092345
+    REALTIME_FLAG: '0'
+    BODY: 'For Api Test'
+    SUB_OPENID: 21322323432
+    SUB_APPID: 234342111789098765
+request:
+    url: /SNSBank-JAVA-SDK-DEMO/payment
+    method: POST
+    headers:
+        Content-Type: application/x-www-form-urlencoded
+        User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X)
+            AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Safari/601.1
+            wechatdevtools/1.02.1910120 MicroMessenger/7.0.4 Language/zh_CN
+            webview/15740389690013191 webdebugger port/27180
+    data:
+        ACCT_NATURE: $ACCT_NATURE
+        BODY: $BODY
+        CHECK_OPTION: '100'
+        DISPLAY_PHONE: '1'
+        DOCUMENT_ID: $DOCUMENT_ID
+        DOCUMENT_TYPE: $DOCUMENT_TYPE
+        EQMTIP: 192.168.167.127
+        HEAD_PORTRAIT: ''
+        MD_TYPE: $MD_TYPE
+        MER_ID: $MER_ID
+        MER_NAME: $MER_NAME
+        NONCE_STR: thnpcJiCzYG42FNa3XzefSh5HAwx
+        NOTIFY_URL: http://midopay-uat.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp
+        ORDER_ID: $ORDER_ID
+        PAYEE_ACCT: $PAYEE_ACCT
+        PAYEE_NAME: $PAYEE_NAME
+        PAY_TYPE: $PAY_TYPE
+        PHONE_NO: $PHONE_NO
+        REALTIME_FLAG: $REALTIME_FLAG
+        RETURN_URL: http://midopay-uat.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp
+        SUB_APPID: $SUB_APPID
+        SUB_OPENID: $SUB_OPENID
+        THIRD_ID: $THIRD_ID
+        THIRD_OPEN_ID: $THIRD_OPEN_ID
+        TRAN_AMT: $TRAN_AMT
+        WALLET_TYPE: personer
+validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html;charset=UTF-8

@@ -1,0 +1,32 @@
+- testinfo:
+    - id: test001
+      module: login_page
+      title: 登录页面
+  step:
+      - element_info: com.netease.cloudmusic:id/qc
+        find_type: id
+        operate_type: click
+        info: 点击手机号登录
+  check:
+      - element_info: //*[@resource-id="com.netease.cloudmusic:id/mc"]/android.widget.TextView[2]
+        find_type: id
+        check: default
+        info: 进入手机号登录页面
+  remarks:
+      - flag: Y
+- testinfo:
+    - id: test002
+      module: login_page
+      title: 登录页面
+  step:
+      - element_info: com.netease.cloudmusic:id/aok
+        find_type: id
+        operate_type: click
+        info: 点击注册
+  check:
+      - element_info: //android.view.ViewGroup[@resource-id='com.netease.cloudmusic:id/mc']/android.widget.TextView[@text='手机号注册']
+        find_type: id
+        check: default
+        info: 进入注册页面
+  remarks:
+      - flag: N

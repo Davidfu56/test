@@ -1,0 +1,14 @@
+#公众号入口页面元素
+$wx_wo: xpath|//*[@text='我']
+$wx_shoucang: xpath|//*[@text='收藏']
+$wx_rukou: xpath|//*[contains(@text, '深农商电脑网站支付')]
+#sdk-demo支付发起页面元素
+$PAY_TYPE: id|PAYEE_ACCT
+$MD_TYPE: id|MD_TYPE
+$THIRD_OPEN_ID: id|THIRD_OPEN_ID
+$PHONE_NO: id|PHONE_NO
+$MER_ID: id|MER_ID
+$MER_NAME: id|MER_NAME
+$ORDER_ID: id|ORDER_ID
+$TRAN_AMT: id|TRAN_AMT
+$PAYEE_ACCT:  id|PAYEE_ACCT

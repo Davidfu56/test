@@ -1,0 +1,41 @@
+-   config:
+        name: "验证获取公私钥信息"
+        variables: {}
+        base_url: http://jyjf.qhgctech.com
+        verify: false
+-   test:
+        name: sdkdemo发起支付
+        api: api/sdkdemo-payment.yml
+        extract:
+          - action: form name="generated_form" method="post" action="(.+?)">
+          - randomKey: name="randomKey" value="(.+?)">
+          - data: name="data" value="(.+?)">
+          - appID: name="appID" value="(.+?)">
+          - sign: name="sign" value="(.+?)">
+          - reqTime: name="reqTime" value="(.+?)">
+          - serviceId: name="serviceId" value="(.+?)">
+        validate:
+          - eq: ["status_code", 200]
+-   test:
+        name: doDispatcher
+        api: api/doDispatcher.yml
+        variables:
+          appID: $appID
+          data: $data
+          randomKey: $randomKey
+          reqTime: $reqTime
+          serviceId: $serviceId
+          sign: $sign
+        teardown_hooks:
+          - ${alter_requestKey($response)}
+        extract:
+          - requestKey: text
+        validate:
+            - eq: ["status_code", 200]
+-   test:
+        name: getBusinessData
+        api: api/getBusinessData.yml
+        variables:
+          requestKey: $requestKey
+        validate:
+            - eq: ["status_code", 200]

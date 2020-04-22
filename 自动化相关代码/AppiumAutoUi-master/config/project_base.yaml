@@ -1,0 +1,9 @@
+WX_H5:
+  capabilities:
+    platformName: "Android"
+    appPackage: "com.tencent.mm"
+    appActivity: "com.tencent.mm.ui.LauncherUI"
+    noReset: "true"
+    fullReset: "false"
+    fastReset: "false"
+    chromeOptions: "{'androidProcess': 'com.tencent.mm:tools'}"

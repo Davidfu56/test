@@ -1,0 +1,110 @@
+config:
+    name: testcase description
+    variables: {}
+teststeps:
+-   name: /Webgateway/getBusinessData
+    request:
+        headers:
+            Sec-Fetch-Dest: empty
+            Sec-Fetch-Mode: cors
+            Sec-Fetch-Site: same-origin
+            Sec-Fetch-User: ?F
+            User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12
+                (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1910120
+                MicroMessenger/7.0.4 Language/zh_CN webview/15740389690013191 webdebugger
+                port/27180
+            X-Requested-With: XMLHttpRequest
+            sec-ch-ua: nwjs 74
+        method: GET
+        params:
+            requestKey: 1574039923747WS1000002012
+        url: https://midopay-sit.qhgctech.com/Webgateway/getBusinessData
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - application/json
+    -   eq:
+        - content.rPublicKey
+        - 1574039926850WS1000002013
+    -   eq:
+        - content.Msg
+        - 获取数据成功
+    -   eq:
+        - content.privateKey
+        - MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+owMqCR+7GBlt8uIIJpk7MGsHhdw1wplQwgGQ7s1EQfyLBgsRIsXaHQf0tm5rB3GBk77eNNbPPG3FNA0RpfN3YFFnfIV3vaexkvvrBm08JUsX1stOd7ZuEPEFjux8d3rgtAFluYFBhi8jVT3HD/SfuBivw/zBAxdrZpY2s1uPKHeGRTga4w5NmGnmZ3eXyH6kaBoznMowwJeaoKtmDp5EOi21xDvf74820BBqA0mHoNAbuLz3Hgdr2rW9zHxww3nTH9q1rn4+FdBWL4IBPscGxGHANFA3xKULl1R85JcVQe1juaTCEnpIplNXrFRoiwHudojX5uNTCojvs7saoyHZAgMBAAECggEAF+MtPlMuWq9GYHSSxhqwEK6cerDXSxU7SNdGgvapWeg60ODM+jS1PgNtP8isRVUFcAsnW4ibchRMXO2Mxa1ZuJelG6aKwtpM7P9R+b0watzxb+dGSmrNvTT6PowOLfp6tzVXB3wbKi66MV85AnyJVoom7b9NKJJOmPKd1/TZgDKGPJEgPbKnrdOtfoNxgYNsHcNfHWlTWuFlR7NifrlldMK4zwaYUlAe8E2/W84lakxxL+eaxcgLNILfnMZUpRFi9nk/GaEJkYqVSvoLj4zHU7VM1UnVejUnnJ7surN0nkIs32tSnAHv+TYmMJmR/9a2sRMpjz+oXp2VqINmrVrl0QKBgQD1V0LsTqUupl/jhz+z1b+xXuT+CBb6HgyBgcv/0RBdP6yNB3Z6k/wUFNpiFng+g56RXQDVxBsdgVmMCBgC2DtRwUrAoqnFqGmwmPWCmiHXDN7OFPWpjH4eUBrpAcQesJE8ccilB06wS2DaDqSwa532NtEZgGLXlVMLRgG5t/0lUwKBgQDG61GztLVp7PIX0rgJbtVgYBaY90LzusUKN3wxUInoSsBUb/l7MIEYnCPUL3WOrikKnIbwYi7miC38tKWXiqCYjKaqgb5q8ZF5uII980KhZxxNIp60gksVVCi1ACvWvAPD+UrXWVxK046QZJhUwytwelznmRFWfNBr5AUT8QBqowKBgQDgiq3gcxYxPOpz5pwB7naUUoKIkUTeQ9Q0T2QyzNgKUDWPma3xADHs+yzoKyKALJxa9GDIRMSAW5tmUx4OtHKOH7dX2UhCdCHPFB9XGdQw60GcIYi5VbEz8yK98PTbFcTHKmh1ydtV9Jc+27oVEVmwN3lmup88KhmoLrlzjZYtqwKBgCIWq56vRjOL3oUEoHNFYh2s+dJm9TtNc3znu0m8MpXzUXhm5AsfadAs2dr/8xZrdC8UWe+R89Wf2rmmv4XzxMe/usQXjelH0pVYcEFrkayVPf1eBHKMrY9PJ9a0285l1ANeklvLPYy5KoJGKvDDrYsN/SPXUGhQ5WrH3bLoJxkfAoGAW2ZRfA8inHujEpfNz6t+w1l0P6fXHwL4NO4usIEncWjtDGYWbIuD8/9HvsSZS+NcBev4fxAkaMy1KrgTCpTcfKzjVX7jqcDoHe4Zudd70V2h9IkC9iai9jR3RqzhjUcaq3/qKdl67Wto14XD/19yzs1XGQm7d3EoUBX2GA+sTJc=
+    -   eq:
+        - content.data
+        - '{"DISPLAY_PHONE":"1","EQMTIP":"192.168.167.127","HEAD_PORTRAIT":"","MD_TYPE":"PAY","PAY_TYPE":"","PHONE_NO":"17012345678","THIRD_ID":"00001","THIRD_OPEN_ID":"463550","appId":"f2d72258-2e11-476f-abf2-1480c2fe2b6b","PAYMENT_METHOD":[{"wechatPayment":{"BODY":"微信支付测试","IS_RAW":"1","MER_ID":"99081304260000","MER_NAME":"李军","MER_ORDER_ID":"321432421213213","NONCE_STR":"thnpcJiCzYG42FNa3XzefSh5HAwx","NOTIFY_URL":"http://midopay-fit.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp","RETURN_URL":"http://midopay-fit.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp","SUB_APPID":"","SUB_OPENID":"234324123123","TRAN_AMT":0.01,"USER_IP":"192.168.167.127"}},{"walletPayment":{"ACCT_NATURE":"0","CCY":"CNY","CHECK_OPTION":"100","DOCUMENT_ID":"411521199009092345","DOCUMENT_TYPE":"0","MER_ID":"99081304260000","MER_NAME":"李军","NOTIFY_URL":"http://midopay-fit.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp","ORDER_ID":"321432421213213","PAYEE_ACCT":"32423423324324","PAYEE_NAME":"234234234324","REALTIME_FLAG":"0","RETURN_URL":"http://midopay-fit.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp","TRAN_AMT":0.01}},{"jyjfWalletPayment":{"ACCT_NATURE":"0","CCY":"CNY","CHECK_OPTION":"100","DOCUMENT_ID":"411521199009092345","DOCUMENT_TYPE":"0","MER_ID":"99081304260000","MER_NAME":"李军","NOTIFY_URL":"http://midopay-fit.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp","ORDER_ID":"321432421213213","PAYEE_ACCT":"32423423324324","PAYEE_NAME":"234234234324","REALTIME_FLAG":"0","RETURN_URL":"http://midopay-fit.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp","TRAN_AMT":0.01}}]}'
+    -   eq:
+        - content.MsgCode
+        - '000000'
+    -   eq:
+        - content.publicKey
+        - MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzNwubSseDqOueq04BlzK1HylM43ClimOL2/umsEGQQ9tk31YJxHjuT47qO3s/OxqQJ+r0umc77DwILnJtDhSYjJ8MGFfa00HLPUSVLv5gdNiVJM8cnTqJa4xB2n0Fnm7bNGWkxnf4qQIlA7PPJiNJLvSSYP0SUxnKNkDfJeKuWw3n67vpNI3gT65Ng8a98HzpulYU/b/cZq8aleJ7Zin+RkY433rr9FtEBypUz4qTPEu0je+MdxhiPRA4TA7tibXJgqP4sg8XXAms3GhScAwyL5PptvJGwYr0UOvieGUCzRDaNRmj2Rqns9td21rLZ0w4vifmMjvMOgmDCQAWc7i8wIDAQAB
+-   name: /api/approveDev
+    request:
+        data:
+            ? '{"version":"1.1.9","appID":"f2d72258-2e11-476f-abf2-1480c2fe2b6b","SDKType":"mobile","reqTime":"2019-11-18
+                09:03:59 149","mac":"0.0.0.0","signType":"MD5","appAccessToken":"","data":"eSKnyajZkElzlf8Pco/9DiE1sf6tS3
+                halYxfcGPJ8R9HoIwvF4DiynmNgM5Ux0L2g9NowBQE9l3u9rZLCsc0C2IaZmRCkcm
+                1sI8v/V8hu3Ni5i8tz/f0ffCbgg GPje8o1AQAJQiB4lFt6B4G/oQWnC8/OJ09Ufdgoz9MpO9GreOqYVBhVuHo/fF95cw2lNHABnorAIqO0B1vxUuzHwGiyspm1N5BnVqeqCuKWcCtypoZ641j6FmyALZH1Vhj9","genId":"1574039926850WS1000002013","randomKey":"vvRWDlRXb48uDq9ezNry3hBNk7blmB
+                3YkQQTAz4dhqHLeRoBozrUMfzXgkHuB5zqat1CsAjKsDcQA60KQo9ww2cl6e65NKAsj3v/dZ
+                dHJypzwrCG8zZ/UwWM/wpAa1Qnvk9WZijkLV2sVbJIKWcCYkRgh0M21C/zXMqD43KK6k8M6fiTL9L9HXUwrquI5D7PsCFt4poJzC0jZRJR66zUuU/RkAkfrgAhiFKoHpS/xcQ/UNHeusllSONGHAuFVqEezMgewsgK28yLLjb
+                bDLra0WWkm8CxeKczD4BUvVYKJ7lIAS6kcevUlTXIa1 kTkSRfJNBDgO6RjFe/W/U4Ag'
+            : =","sign":"1b016ad979b5665d029882a6e7efe7be"}
+        headers:
+            Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+            Sec-Fetch-Dest: empty
+            Sec-Fetch-Mode: cors
+            Sec-Fetch-Site: same-origin
+            Sec-Fetch-User: ?F
+            User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12
+                (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1910120
+                MicroMessenger/7.0.4 Language/zh_CN webview/15740389690013191 webdebugger
+                port/27180
+            X-Requested-With: XMLHttpRequest
+            sec-ch-ua: nwjs 74
+        method: POST
+        url: https://midopay-sit.qhgctech.com/api/approveDev
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html;charset=UTF-8
+-   name: /api/listSalesPromotion1
+    request:
+        data:
+            ? '{"version":"1.1.9","appID":"f2d72258-2e11-476f-abf2-1480c2fe2b6b","SDKType":"mobile","reqTime":"2019-11-18
+                09:03:59 657","mac":"0.0.0.0","signType":"MD5","appAccessToken":"71ae691f8c346326403b810b2ce97db1","data":"aiR2KzN/RTMsTQCjw1PBBTCW9
+                lxLsrGrrTbNYanWMPRPOCFal2u6ywDXzQShYBQf61613nBIKfqLH6Ew07EvUY81lA1zR6IguuAAsxJfGYpnpc2dgbNfcNWqUiKVMK6g4gnyNt8vbno0
+                VOehjv23xWhsMJj6 pvHtz750L0GT5dN6YkQI7lyYPahtcvc8N","genId":"1574039926850WS1000002013","randomKey":"rfK/zf3JaE5G5DzyQPjjeGJNAUMZZ11v7JqZNPPEOawM0hoNdCf00KPXG4RxB89EFVN8l5BByIVZR8iVnLtXk2sY/PFsSrTb2cHT6iB3S93FFuT0jba23Tqlw1KGaMHbv1dh63hfAjzFDyOYT/
+                fkYTEtGnKOutpOgllmuVEiIcic/hoXa8UrtU116j49vYi4 y7Z1WizlsMvZisRQCRjohVNLe51PWXl
+                K2 OVduh4aJs2sgiYYiPPETTz4pEGDcCLnnlCqoMzisMVI85BtTUxaF6 9RujpqkK3LvfKtKPvBSl1RzZTr
+                G4lOwV966o52gmREUQOCnr4RLTMG2CMQ'
+            : =","sign":"6c0200c103f6fe6cc654193b70814f02"}
+        headers:
+            Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+            Sec-Fetch-Dest: empty
+            Sec-Fetch-Mode: cors
+            Sec-Fetch-Site: same-origin
+            Sec-Fetch-User: ?F
+            User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12
+                (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1910120
+                MicroMessenger/7.0.4 Language/zh_CN webview/15740389690013191 webdebugger
+                port/27180
+            X-Requested-With: XMLHttpRequest
+            sec-ch-ua: nwjs 74
+        method: POST
+        url: https://midopay-sit.qhgctech.com/api/listSalesPromotion1
+    validate:
+    -   eq:
+        - status_code
+        - 200
+    -   eq:
+        - headers.Content-Type
+        - text/html;charset=UTF-8

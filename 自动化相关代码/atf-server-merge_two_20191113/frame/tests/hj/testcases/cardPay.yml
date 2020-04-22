@@ -1,0 +1,135 @@
+-   config:
+        name: "验证本行卡支付"
+        variables:
+          MER_ID: 99091605310000
+          MER_NAME: 魏双双
+          ORDER_ID: ${get_orderId()}
+          TRAN_AMT: '0.01'
+          THIRD_OPEN_ID: wangchao
+          THIRD_ID: 000001
+        base_url: http://jyjf.qhgctech.com
+        verify: false
+-   test:
+        name: sdkdemo发起支付
+        api: api/sdkdemo-payment.yml
+        extract:
+          - action: form name="generated_form" method="post" action="(.+?)">
+          - randomKey: name="randomKey" value="(.+?)">
+          - data: name="data" value="(.+?)">
+          - appID: name="appID" value="(.+?)">
+          - sign: name="sign" value="(.+?)">
+          - reqTime: name="reqTime" value="(.+?)">
+          - serviceId: name="serviceId" value="(.+?)">
+        validate:
+          - eq: ["status_code", 200]
+-   test:
+        name: doDispatcher
+        api: api/doDispatcher.yml
+        variables:
+          appID: $appID
+          data: $data
+          randomKey: $randomKey
+          reqTime: $reqTime
+          serviceId: $serviceId
+          sign: $sign
+        teardown_hooks:
+          - ${alter_requestKey($response)}
+        extract:
+          - requestKey: text
+        validate:
+          - eq: ["status_code", 200]
+-   test:
+        name: getBusinessData
+        api: api/getBusinessData.yml
+        variables:
+          requestKey: $requestKey
+        extract:
+          - rPublicKey: content.rPublicKey
+          - privateKey: content.privateKey
+          - publicKey: content.publicKey
+        validate:
+            - eq: ["status_code", 200]
+-   test:
+        name: approveDev
+        api: api/approveDev.yml
+        variables:
+          SDKType: "mobile"
+          appID: $appID
+          appSecretKey: ""
+          deviceID: "199047"
+          deviceName: ""
+          mac: "0.0.0.0"
+          randomNumber: ${get_randomnumber(8)}
+          reqIp: ""
+        setup_hooks:
+          - ${setup_hook_encrypt($request, $rPublicKey, $privateKey, $publicKey)}
+        teardown_hooks:
+          - ${teardown_hook_decrypt($response, $privateKey)}
+        extract:
+          - appAccessToken: decrypt_data.data.appAccessToken
+        validate:
+            - eq: ["status_code", 200]
+-   test:
+        name: mdp_queryCustInfo
+        api: api/mdp_queryCustInfo.yml
+        variables:
+          THIRD_OPEN_ID: $THIRD_OPEN_ID
+          THIRD_ID: $THIRD_ID
+        setup_hooks:
+          - ${setup_hook_encrypt($request, $rPublicKey, $privateKey, $publicKey, $appAccessToken)}
+        teardown_hooks:
+          - ${teardown_hook_decrypt($response, $privateKey)}
+        extract:
+          - USER_ID: decrypt_data.data.USER_ID
+          - CLIENT_NO: decrypt_data.data.CLIENT_NO
+          - DOCUMENT_NAME: decrypt_data.data.DOCUMENT_NAME
+          - CERTIFICATE_NO: decrypt_data.data.CERTIFICATE_NO
+          - PHONE: decrypt_data.data.PHONE
+        validate:
+            - eq: ["status_code", 200]
+            - eq: ["decrypt_data.data.DOCUMENT_NAME", "王超"]
+-   test:
+        name: mdp_queryCustCards
+        api: api/mdp_queryCustCards.yml
+        variables:
+          MER_ID: $MER_ID
+          USER_ID: $USER_ID
+          CLIENT_NO: $CLIENT_NO
+        setup_hooks:
+          - ${setup_hook_encrypt($request, $rPublicKey, $privateKey, $publicKey, $appAccessToken)}
+        teardown_hooks:
+          - ${teardown_hook_decrypt($response, $privateKey)}
+        extract:
+          - BANK_CODE: decrypt_data.data.LINKED_ACCT_DETAIL.0.LINKED_ACCT_BANK_CODE
+          - LINKED_BASE_ACCT_NO: decrypt_data.data.LINKED_ACCT_DETAIL.0.LINKED_BASE_ACCT_NO
+        validate:
+            - eq: ["status_code", 200]
+-   test:
+        name: cardPay
+        api: api/cardPay.yml
+        variables:
+          BANK_CODE: $BANK_CODE
+          CCY: "CNY"
+          DOCUMENT_ID: $CERTIFICATE_NO
+          DOCUMENT_TYPE: "0"
+          MER_ID: $MER_ID
+          MER_NAME: $MER_NAME
+          MER_NOTIFY_URL: http://midopay-uat.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp
+          MER_ORDER_ID: $ORDER_ID
+          PASSWORD: ""
+          PAYER_ACCT: $LINKED_BASE_ACCT_NO
+          PAYER_NAME: $DOCUMENT_NAME
+          PHONE_NO: $PHONE
+          THIRD_ID: ""
+          TRAN_AMT: $TRAN_AMT
+          TRAN_FLAG: "01"
+          TREATY_TYPE: "11"
+          USER_ID: $USER_ID
+          CLIENT_NO: $CLIENT_NO
+          THIRD_OPEN_ID: $THIRD_OPEN_ID
+        setup_hooks:
+          - ${setup_hook_encrypt($request, $rPublicKey, $privateKey, $publicKey, $appAccessToken)}
+        teardown_hooks:
+          - ${teardown_hook_decrypt($response, $privateKey)}
+        validate:
+            - eq: ["status_code", 200]

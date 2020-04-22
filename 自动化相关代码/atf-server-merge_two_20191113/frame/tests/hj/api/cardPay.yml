@@ -1,0 +1,56 @@
+name: /api/cardPay
+variables:
+    BANK_CODE: ""
+    CCY: ""
+    DOCUMENT_ID: ""
+    DOCUMENT_TYPE: ""
+    MER_ID: ""
+    MER_NAME: ""
+    MER_NOTIFY_URL: http://midopay-uat.qhgctech.com:8090/SNSBank-JAVA-SDK-DEMO/notify_url.jsp
+    MER_ORDER_ID: ""
+    PASSWORD: ""
+    PAYER_ACCT: ""
+    PAYER_NAME: ""
+    PHONE_NO: ""
+    THIRD_ID: ""
+    TRAN_AMT: ""
+    TRAN_FLAG: ""
+    TREATY_TYPE: ""
+    USER_ID: ""
+    CLIENT_NO: ""
+request:
+    headers:
+        Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+        User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12
+            (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1910120
+            MicroMessenger/7.0.4 Language/zh_CN webview/15740389690013191 webdebugger
+            port/27180
+    method: POST
+    url: /api/cardPay
+    data:
+        BANK_CODE: $BANK_CODE
+        CCY: $CCY
+        DOCUMENT_ID: $DOCUMENT_ID
+        DOCUMENT_TYPE: $DOCUMENT_TYPE
+        MER_ID: $MER_ID
+        MER_NAME: $MER_NAME
+        MER_NOTIFY_URL: $MER_NOTIFY_URL
+        MER_ORDER_ID: $MER_ORDER_ID
+        PASSWORD: $PASSWORD
+        PAYER_ACCT: $PAYER_ACCT
+        PAYER_NAME: $PAYER_NAME
+        PHONE_NO: $PHONE_NO
+        THIRD_ID: $THIRD_ID
+        TRAN_AMT: $TRAN_AMT
+        TRAN_FLAG: $TRAN_FLAG
+        TREATY_TYPE: $TREATY_TYPE
+        USER_ID: $USER_ID
+        CLIENT_NO: $CLIENT_NO
+        THIRD_OPEN_ID: $THIRD_OPEN_ID
+validate:
+-   eq:
+    - status_code
+    - 200
+-   eq:
+    - content.returnCode
+    - "000000"

@@ -1,0 +1,30 @@
+name: /Webgateway/doDispatcher
+base_url: ''
+variables:
+    action: ''
+    appID: ''
+    data: ''
+    randomKey: ''
+    reqTime: ''
+    serviceId: ''
+    sign: ''
+request:
+    data:
+        appID: $appID
+        data: $data
+        randomKey: $randomKey
+        reqTime: $reqTime
+        serviceId: $serviceId
+        sign: $sign
+    headers:
+        Content-Type: application/x-www-form-urlencoded
+        User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12
+            (KHTML, like Gecko) Mobile/14C92 Safari/601.1 wechatdevtools/1.02.1910120
+            MicroMessenger/7.0.4 Language/zh_CN webview/15740389690013191 webdebugger
+            port/27180
+    method: POST
+    url: $action
+validate:
+-   eq:
+    - status_code
+    - 302
